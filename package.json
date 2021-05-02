@@ -1,11 +1,11 @@
 {
-  "name": "lz-js",
+  "name": "lz-mini-js",
   "version": "0.1.0",
   "description": "Compress source js code to no-dependencies self-decompressable js code",
-  "homepage": "https://github.com/iassasin/lz-js",
+  "homepage": "https://github.com/iassasin/lz-mini-js",
   "main": "src/index.js",
   "bin": {
-    "lz-js": "bin/lz-js.js"
+    "lz-mini-js": "bin/lz-js.js"
   },
   "author": {
     "email": "iassasin@yandex.ru",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iassasin/lz-js.git"
+    "url": "git+https://github.com/iassasin/lz-mini-js.git"
   },
   "bugs": {
-    "url": "https://github.com/iassasin/lz-js/issues"
+    "url": "https://github.com/iassasin/lz-mini-js/issues"
   },
   "keywords": [
     "lz", "compression", "minification",
