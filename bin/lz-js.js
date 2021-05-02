@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const compressify = require('../');
 const fs = require('fs').promises;
 

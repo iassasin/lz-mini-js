@@ -4,6 +4,9 @@
   "description": "Compress source js code to no-dependencies self-decompressable js code",
   "homepage": "https://github.com/iassasin/lz-js",
   "main": "src/index.js",
+  "bin": {
+    "lz-js": "bin/lz-js.js"
+  },
   "author": {
     "email": "iassasin@yandex.ru",
     "name": "iassasin",
@@ -16,6 +19,10 @@
   "bugs": {
     "url": "https://github.com/iassasin/lz-js/issues"
   },
+  "keywords": [
+    "lz", "compression", "minification",
+    "uglify", "minify", "minifier", "compress"
+  ],
   "engines": {
     "node": ">=12.0"
   },
