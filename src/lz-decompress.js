@@ -24,7 +24,7 @@ function (input) {
         }
 
         pos /= 2;
-        bits |= ((value & pos) > 0 ? 1 : 0) << bitPos;
+        bits |= ((value & pos) > 0) << bitPos;
         ++bitPos;
       }
     };
